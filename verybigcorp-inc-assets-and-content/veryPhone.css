@@ -5,18 +5,21 @@ body{
 }
 
 h1{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 p{
     font-family: serif;
 }
 
+img{
+height: 350px;}
+
 /* ids  */
 
 #phone1{
     max-width: 500px;
-    flex-shrink: 3;
+    flex-grow: 3;
     padding: 2px;
 }
 
@@ -28,14 +31,7 @@ p{
     justify-content: center;
     /* flex-wrap: wrap; */
     width: 900px;
-}
-/* colours for backgrounds */
-.colourFill3{
-    background-color: #00CFC1;
-}
-
-.colourFill4{
-    background-color: #D6D84F;
+    align-items: center;
 }
 
 .infobox{
@@ -43,4 +39,32 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* flex-grow: 1; */
+}
+
+.lowerBoxs{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px; 
+}
+
+.imageGallary{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+/* colours for backgrounds */
+.colourFill3{
+    background-color: #00CFC1;
+}
+
+.colourFill4{
+    background-color: #D6D84F;
 }
