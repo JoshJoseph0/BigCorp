@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-box{
+    color: white;
+    justify-content: space-around;
+    align-items: space-around;
+    margin: auto;
+}
+
+#product-name{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #d6d84f;
+    width: 90%;
+    height: 40%;
+}
+
+
+#product-name img{
+    width: 50%;
+    height: 20em;
+    margin: 0.5em;
+}
+
+#catchy-title1{
+    background-color: #00cfc1;
+    width: 60%;
+    height: 20%;
+}
+
+#catchy-title2{
+    background-color: #f2542d;
+    width: 60%;
+    height: 40%;
+}
+
+h1{
+    font-size: 50px;
+    margin: auto;
+}
+
+p{
+    font-family: serif;
+}
