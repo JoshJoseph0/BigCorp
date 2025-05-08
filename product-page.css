@@ -42,10 +42,20 @@ section{
     height: 20%;
 }
 
+#catchy-title1 img{
+    width: 32%;
+    height: 50%;
+}
+
 #catchy-title2{
     background-color: #f2542d;
     width: 60%;
     height: 40%;
+}
+
+#catchy-title2 img{
+    width: 100%;
+    height: 30%;
 }
 
 h1{
