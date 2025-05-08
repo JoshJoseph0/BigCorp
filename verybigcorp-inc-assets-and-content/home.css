@@ -53,11 +53,12 @@ p{
 .box{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     background-color: aqua;
     border-radius: 40px;
     margin: 10px;
     width: 40%;
-    height:500px;
+    height:400px;
     transition: 0.2s;
 }
 
@@ -87,4 +88,22 @@ p{
 #flex{
     display: flex;
     justify-content: center;
+}
+
+.Products{
+    height: 100px;
+    width: 200px;
+}
+
+#header-img{
+    height: 500px;
+ object-fit: cover;
+}
+
+#product{
+    display: flex;
+}
+
+.buy{
+    width: 200px;
 }
