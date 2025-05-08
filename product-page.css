@@ -14,6 +14,13 @@ body{
     margin: auto;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
 #product-name{
     display: flex;
     flex-flow: row nowrap;
@@ -43,7 +50,7 @@ body{
 
 h1{
     font-size: 50px;
-    margin: auto;
+    margin: 0.5em;
 }
 
 p{
